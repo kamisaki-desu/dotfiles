@@ -1,0 +1,869 @@
+[33mcommit 1c92bdce0cdef1e45bebfce3f637fe9bac6b9cf7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Mon Nov 4 01:45:21 2024 +0400
+
+            deleted:    Configs/.local/share/bin/abo.db
+
+[33mcommit e46968572e9fee9739fc78257fd43c8f993aabe5[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Mon Nov 4 01:41:29 2024 +0400
+
+    Vencord
+
+[33mcommit 1c0935cd57c1e07259ecc7e4f9d09920787928f7[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Mon Nov 4 01:37:15 2024 +0400
+
+    Vencord/Vesktop config added
+
+[33mcommit 7cc389255ce50ef99bb536dfd85c6d5087732023[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Mon Nov 4 01:36:29 2024 +0400
+
+    Added new Wallpapers
+
+[33mcommit dac27d87249ebd803b923e36b1244e5ff15e3aea[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Mon Nov 4 01:36:05 2024 +0400
+
+    Hyprlock updated
+
+[33mcommit 6dc2b44786d2f87f9b1122be63816cc6cd91dc74[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Fri Nov 1 22:42:35 2024 +0400
+
+    .
+
+[33mcommit 759fa0dd500bddccb68ef6ab6832aa4e090a6fd6[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Fri Nov 1 22:42:25 2024 +0400
+
+    SwayNC Update
+
+[33mcommit 5e604895b929bff0bb5b631bb8ea80c5444f09be[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Fri Nov 1 22:42:02 2024 +0400
+
+    Add SwayOSD
+
+[33mcommit 877f49d226d10258027455b2c7041aeda1feac6b[m
+Merge: c4570ab09 0893cef22
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Thu Oct 31 16:22:21 2024 +0400
+
+    Merge branch 'main' of https://github.com/xeyossr/dotfiles
+
+[33mcommit c4570ab0961fada437e6b482ffd3d7ed2fcab852[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Thu Oct 31 16:21:23 2024 +0400
+
+            deleted:    Configs/.local/share/bin/d4e/__pycache__/d4e.cpython-312.pyc
+            deleted:    Configs/.local/share/bin/d4e/d4e-daemon.py
+            deleted:    Configs/.local/share/bin/d4e/d4e.py
+            deleted:    Configs/.local/share/bin/d4e/data.json
+            deleted:    Configs/.local/share/bin/d4e/static/css/style.css
+            deleted:    Configs/.local/share/bin/d4e/static/js/app.js
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/1e6e42bd6d99a1189a0417a90ff34ec3.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/6688984d7dc04587997a249c77c2836e.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Ki-ja.png
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Kibutsuji Muzan BLUE Theme.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Kibutsuji Muzan Blue Theme 2.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Muslim Muzan.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Muzan blue theme.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Muzan red theme.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Muzan x Doki .jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Prens Izana.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Yona-of-the-Dawn-Shin-Ah-akatsuki-no-yona-39780230-736-414-132582949.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Yoriichi 1.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Yoriichi 2.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Yoriichi 3.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/Yoriichi.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/anime erkek linux.png
+            deleted:    "Configs/.local/share/bin/d4e/static/uploads/anime k\304\261z\304\261 linux.png"
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/download.png
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/ki-ja.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/kibutsuji mozan.png
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/kibutsuji muzan.png
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/son hak 2.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/son hak 3.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/son hak.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/su won 2.jpg
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/tokito 2.png
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/ubuyashiki kagaya 2.png
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/ubuyashiki kagaya.png
+            deleted:    Configs/.local/share/bin/d4e/static/uploads/zen.jpg
+            deleted:    Configs/.local/share/bin/d4e/templates/index-backup.html
+            deleted:    Configs/.local/share/bin/d4e/templates/index.html
+
+[33mcommit 26988fcca40b706461bddc7d4067d7096f4a5253[m
+Author: xeyossr <113219171+xeyossr@users.noreply.github.com>
+Date:   Thu Oct 31 16:20:36 2024 +0400
+
+            new file:   .gitignore
+            modified:   Configs/.aliases
+            modified:   Configs/.config/Kvantum/wallbash/wallbash.kvconfig
+            modified:   Configs/.config/Kvantum/wallbash/wallbash.svg
+            modified:   Configs/.config/dunst/dunstrc
+            modified:   Configs/.config/dunst/icons/hyprdots.svg
+            modified:   Configs/.config/dunst/icons/vol/muted-mic.svg
+            modified:   Configs/.config/dunst/icons/vol/muted-speaker.svg
+            modified:   Configs/.config/dunst/icons/vol/unmuted-mic.svg
+            modified:   Configs/.config/dunst/icons/vol/unmuted-speaker.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-0.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-10.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-100.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-15.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-20.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-25.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-30.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-35.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-40.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-45.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-5.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-50.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-55.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-60.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-65.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-70.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-75.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-80.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-85.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-90.svg
+            modified:   Configs/.config/dunst/icons/vol/vol-95.svg
+            modified:   Configs/.config/dunst/wallbash.conf
+            modified:   Configs/.config/fastfetch/config.jsonc
+            deleted:    Configs/.config/fastfetch/pngs/1X5UQiu.png
+            deleted:    Configs/.config/fastfetch/pngs/8ZLkpL3.png
+            deleted:    Configs/.config/fastfetch/pngs/9NkXtsc.png
+            deleted:    Configs/.config/fastfetch/pngs/ILg4upo.png
+            deleted:    Configs/.config/fastfetch/pngs/MFGfXVv.png
+            deleted:    Configs/.config/fastfetch/pngs/NkBkPHB.png
+            deleted:    Configs/.config/fastfetch/pngs/RQUDfFL.png
+            deleted:    Configs/.config/fastfetch/pngs/VKlz0OW.png
+            deleted:    Configs/.config/fastfetch/pngs/WlFVTXy.png
+            deleted:    Configs/.config/fastfetch/pngs/aizen_1.png
+            new file:   Configs/.config/fastfetch/pngs/cutie.png
+            deleted:    Configs/.config/fastfetch/pngs/eVaA1vf.png
+            new file:   Configs/.config/fastfetch/pngs/emo.png
+            new file:   Configs/.config/fastfetch/pngs/gurl.png
+            deleted:    Configs/.config/fastfetch/pngs/hypr.png
+            deleted:    Configs/.config/fastfetch/pngs/nyarch.png
+            deleted:    Configs/.config/fastfetch/pngs/o3LG9QR.png
+            deleted:    Configs/.config/fastfetch/pngs/sans.png
+            deleted:    Configs/.config/fastfetch/pngs/shikimori-san.png
+            deleted:    Configs/.config/fastfetch/pngs/tanjiro.png
+            modified:   Configs/.config/fish/fish_variables
+            modified:   Configs/.config/gtk-3.0/settings.ini
+            modified:   Configs/.config/gtk-4.0
+            modified:   Configs/.config/hyde/hyde.conf
+            modified:   Configs/.config/hyde/themes/Catppuccin Mocha/hypr.theme
+            modified:   Configs/.config/hyde/themes/Catppuccin Mocha/wall.set
+            new file:   Configs/.config/hyde/themes/Catppuccin Mocha/wallpapers/wp11235342-2190505724.png
+            new file:   Configs/.config/hyde/themes/Nordic Blue/hypr.theme
+            new file:   Configs/.config/hyde/themes/Nordic Blue/kitty.theme
+            new file:   Configs/.config/hyde/themes/Nordic Blue/kvantum/kvantum.theme
+            new file:   Configs/.config/hyde/themes/Nordic Blue/kvantum/kvconfig.theme
+            new file:   Configs/.config/hyde/themes/Nordic Blue/rofi.theme
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wall.set
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wallpapers/Nordic-Heroin.png
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wallpapers/forest.jpg
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wallpapers/mountains.jpg
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wallpapers/range.png
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wallpapers/sunset.jpg
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wallpapers/underwater.png
+            new file:   Configs/.config/hyde/themes/Nordic Blue/wallpapers/wild.png
+            new file:   Configs/.config/hyde/themes/Nordic Blue/waybar.theme
+            modified:   Configs/.config/hyde/themes/Red Stone/hypr.theme
+            modified:   Configs/.config/hypr/hypridle.conf
+            modified:   Configs/.config/hypr/themes/theme.conf
+            modified:   Configs/.config/kitty/theme.conf
+            modified:   Configs/.config/qt5ct/colors.conf
+            modified:   Configs/.config/qt6ct/colors.conf
+            new file:   Configs/.config/rofi/emoji.rasi
+            new file:   Configs/.config/rofi/glyph.rasi
+            modified:   Configs/.config/rofi/theme.rasi
+            modified:   Configs/.config/spicetify/Backup/login.spa
+            modified:   Configs/.config/spicetify/Backup/xpui.spa
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/__longest.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/af.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/am.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ar-EG.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ar-MA.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ar-SA.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ar.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/az.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/bg.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/bho.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/bn.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/bs.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ca.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/cs.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/da.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/de.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/el.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/en-GB.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/en.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/es-419.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/es-AR.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/es-MX.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/es.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/et.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/eu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/fa.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/fi.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/fil.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/fr-CA.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/fr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/gl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/gu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/he.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/hi.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/hr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/hu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/id.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/is.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/it.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ja.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/kn.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ko.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/lt.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/lv.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/mk.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ml.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/mr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ms.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/nb.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ne.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/nl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/or.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/pa-IN.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/pa-PK.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/pl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/pt-BR.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/pt-PT.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ro.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ru.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/sk.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/sl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/sr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/sv.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/sw.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ta.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/te.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/th.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/tr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/uk.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/ur.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/vi.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/zh-CN.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/zh-HK.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/zh-TW.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/i18n/zu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/login.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/login.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/login/vendor~login.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/1121.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/126.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/1265.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/1487.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/1555.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/191.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/1982.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/2054.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/209.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/22.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/1121.css -> Configs/.config/spicetify/Extracted/Raw/xpui/2284.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/2284.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/2394.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/2611.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/2632.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/2822.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/4708.css -> Configs/.config/spicetify/Extracted/Raw/xpui/2962.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/2962.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/666.css -> Configs/.config/spicetify/Extracted/Raw/xpui/3156.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/3156.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/3035.js -> Configs/.config/spicetify/Extracted/Raw/xpui/3190.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/320.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/3311.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/361.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/383.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/3888.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/4650.css -> Configs/.config/spicetify/Extracted/Raw/xpui/4008.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/4008.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/4134.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/4144.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/4374.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/448.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/462.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/4650.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/4708.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/4900.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/4904.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/5043.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/5320.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/5329.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/5431.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/5473.css
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/5473.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/5546.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/56.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/5778.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/5817.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/361.css -> Configs/.config/spicetify/Extracted/Raw/xpui/5978.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/5978.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/600.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/6007.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/6254.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/626.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/6292.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/6381.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/6392.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/6409.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/6489.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/666.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/6700.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/6861.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/6881.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/6915.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/7034.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/7078.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/7174.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/8462.js -> Configs/.config/spicetify/Extracted/Raw/xpui/7209.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/7228.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/5778.css -> Configs/.config/spicetify/Extracted/Raw/xpui/7271.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/7271.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/8042.css -> Configs/.config/spicetify/Extracted/Raw/xpui/7302.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/7302.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/7378.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/7719.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/7865.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/8042.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/8070.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/817.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/8798.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/8847.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/8864.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/9129.css
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/9129.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/9383.js
+            new file:   Configs/.config/spicetify/Extracted/Raw/xpui/9387.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/9421.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/9683.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/982.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/984.js
+            deleted:    Configs/.config/spicetify/Extracted/Raw/xpui/9984.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/browse-v2.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/concerts-on-tour-playlist-card.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/debug-locales.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dev-playground.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-billboard-ad.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-feedback-bar.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-full-screen-mode-container.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-home-chips-row.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-leaderboard-component.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-lyrics-cinema-mode-container.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-now-playing-bar.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-now-playing-bar.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-offline-empty-state.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-page-error-template.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-panel-section.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-panel-section.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-participant-list-page.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-top-bar.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-video-player.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-watch-feed-view-container.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-watch-feed-view-container.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/dwp-whats-new-feed.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/home-ad-card.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/home-ads-container.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/home-ads-fetcher.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/home-ads-visibility-logger.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/home-hpto.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/home-hpto.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/home-v2-section.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/__longest.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/af.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/am.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ar-EG.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ar-MA.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ar-SA.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ar.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/az.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/bg.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/bho.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/bn.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/bs.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ca.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/cs.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/da.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/de.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/el.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/en-GB.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/en.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/es-419.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/es-AR.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/es-MX.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/es.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/et.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/eu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/fa.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/fi.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/fil.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/fr-CA.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/fr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/gl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/gu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/he.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/hi.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/hr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/hu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/id.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/is.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/it.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ja.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/kn.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ko.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/lt.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/lv.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/mk.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ml.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/mr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ms.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/nb.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ne.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/nl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/or.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/pa-IN.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/pa-PK.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/pl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/pt-BR.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/pt-PT.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ro.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ru.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/sk.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/sl.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/sr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/sv.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/sw.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ta.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/te.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/th.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/tr.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/uk.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/ur.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/vi.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/zh-CN.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/zh-HK.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/zh-TW.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/i18n/zu.json
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/legacy-hpto-compatibility.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/legacy-hpto-compatibility.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/licenses.html
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/lottie-animation.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/pip-mini-player.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/pip-mini-player.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/playlist-leavebehinds.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/this-is-playlist-concerts-carousel.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/vendor~pip-mini-player.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/vendor~xpui.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/vendor~xpui.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-debug-window-contents.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-desktop-modals.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-desktop-routes-settings.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-feature-activation.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-pip-mini-player.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-playlist-format-redirect-with-params.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-root-dialogs.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-album-prerelease.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-album.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-album.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-all-show-ads.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-artist.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-blend.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-buddy-feed-legacy.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-buddy-feed.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-concerts.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-episodes.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-episodes.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-local-files.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-songs.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-songs.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-concert.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-concert.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-create-playlist.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-cultural-moment-hub.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-desktop-settings.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-episode-more-like-this.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-episode-more-like-this.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-episode.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-episode.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-health-check.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-lyrics.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-offline-browse.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-play-history-page.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-playlist.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-playlist.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-profile.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-queue-page.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-recent-searches.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-search.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-search.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-see-all-playlist-leavebehinds.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-show-more-like-this.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-show.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-show.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-stage-page.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-track.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-venues.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui-routes-your-library-x.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui.css
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/xpui.js
+            modified:   Configs/.config/spicetify/Extracted/Raw/xpui/your-sound-capsule-modal.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/__longest.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/af.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/am.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ar-EG.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ar-MA.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ar-SA.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ar.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/az.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/bg.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/bho.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/bn.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/bs.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ca.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/cs.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/da.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/de.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/el.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/en-GB.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/en.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/es-419.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/es-AR.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/es-MX.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/es.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/et.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/eu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/fa.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/fi.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/fil.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/fr-CA.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/fr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/gl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/gu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/he.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/hi.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/hr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/hu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/id.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/is.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/it.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ja.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/kn.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ko.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/lt.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/lv.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/mk.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ml.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/mr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ms.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/nb.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ne.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/nl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/or.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/pa-IN.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/pa-PK.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/pl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/pt-BR.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/pt-PT.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ro.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ru.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/sk.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/sl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/sr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/sv.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/sw.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ta.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/te.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/th.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/tr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/uk.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/ur.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/vi.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/zh-CN.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/zh-HK.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/zh-TW.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/i18n/zu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/login.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/login.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/login/vendor~login.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/1121.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/126.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/1265.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/1487.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/1555.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/191.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/1982.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/2054.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/209.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/22.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/1121.css -> Configs/.config/spicetify/Extracted/Themed/xpui/2284.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/2284.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/2394.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/2611.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/2632.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/2822.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/4708.css -> Configs/.config/spicetify/Extracted/Themed/xpui/2962.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/2962.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/666.css -> Configs/.config/spicetify/Extracted/Themed/xpui/3156.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/3156.js
+            renamed:    Configs/.config/spicetify/Extracted/Raw/xpui/3035.js -> Configs/.config/spicetify/Extracted/Themed/xpui/3190.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/320.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/3311.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/361.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/383.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/3888.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/4650.css -> Configs/.config/spicetify/Extracted/Themed/xpui/4008.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/4008.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/4134.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/4144.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/4374.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/448.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/462.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/4650.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/4708.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/4900.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/4904.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/5043.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/5320.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/5329.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/5431.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/5473.css
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/5473.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/5546.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/56.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/5778.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/5817.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/361.css -> Configs/.config/spicetify/Extracted/Themed/xpui/5978.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/5978.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/600.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/6007.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/6254.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/626.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/6292.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/6381.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/6392.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/6409.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/6489.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/666.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/6700.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/6861.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/6881.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/6915.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/7034.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/7078.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/7174.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/8462.js -> Configs/.config/spicetify/Extracted/Themed/xpui/7209.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/7228.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/5778.css -> Configs/.config/spicetify/Extracted/Themed/xpui/7271.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/7271.js
+            renamed:    Configs/.config/spicetify/Extracted/Themed/xpui/8042.css -> Configs/.config/spicetify/Extracted/Themed/xpui/7302.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/7302.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/7378.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/7719.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/7865.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/8042.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/8070.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/817.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/8798.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/8847.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/8864.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/9129.css
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/9129.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/9383.js
+            new file:   Configs/.config/spicetify/Extracted/Themed/xpui/9387.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/9421.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/9683.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/982.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/984.js
+            deleted:    Configs/.config/spicetify/Extracted/Themed/xpui/9984.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/browse-v2.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/concerts-on-tour-playlist-card.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/debug-locales.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dev-playground.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-billboard-ad.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-feedback-bar.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-full-screen-mode-container.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-home-chips-row.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-leaderboard-component.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-lyrics-cinema-mode-container.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-now-playing-bar.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-now-playing-bar.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-offline-empty-state.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-page-error-template.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-panel-section.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-panel-section.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-participant-list-page.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-top-bar.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-video-player.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-watch-feed-view-container.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-watch-feed-view-container.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/dwp-whats-new-feed.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/home-ad-card.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/home-ads-container.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/home-ads-fetcher.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/home-ads-visibility-logger.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/home-hpto.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/home-hpto.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/home-v2-section.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/__longest.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/af.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/am.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ar-EG.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ar-MA.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ar-SA.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ar.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/az.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/bg.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/bho.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/bn.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/bs.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ca.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/cs.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/da.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/de.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/el.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/en-GB.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/en.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/es-419.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/es-AR.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/es-MX.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/es.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/et.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/eu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/fa.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/fi.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/fil.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/fr-CA.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/fr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/gl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/gu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/he.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/hi.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/hr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/hu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/id.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/is.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/it.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ja.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/kn.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ko.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/lt.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/lv.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/mk.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ml.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/mr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ms.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/nb.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ne.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/nl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/or.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/pa-IN.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/pa-PK.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/pl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/pt-BR.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/pt-PT.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ro.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ru.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/sk.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/sl.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/sr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/sv.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/sw.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ta.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/te.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/th.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/tr.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/uk.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/ur.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/vi.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/zh-CN.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/zh-HK.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/zh-TW.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/i18n/zu.json
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/legacy-hpto-compatibility.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/legacy-hpto-compatibility.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/licenses.html
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/lottie-animation.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/pip-mini-player.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/pip-mini-player.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/playlist-leavebehinds.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/this-is-playlist-concerts-carousel.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/vendor~pip-mini-player.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/vendor~xpui.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/vendor~xpui.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-debug-window-contents.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-desktop-modals.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-desktop-routes-settings.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-feature-activation.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-pip-mini-player.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-playlist-format-redirect-with-params.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-root-dialogs.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-album-prerelease.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-album.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-album.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-all-show-ads.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-artist.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-blend.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-buddy-feed-legacy.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-buddy-feed.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-collection-concerts.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-collection-episodes.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-collection-episodes.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-collection-local-files.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-collection-songs.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-collection-songs.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-concert.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-concert.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-create-playlist.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-cultural-moment-hub.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-desktop-settings.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-episode-more-like-this.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-episode-more-like-this.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-episode.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-episode.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-health-check.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-lyrics.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-offline-browse.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-play-history-page.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-playlist.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-playlist.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-profile.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-queue-page.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-recent-searches.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-search.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-search.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-see-all-playlist-leavebehinds.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-show-more-like-this.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-show.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-show.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-stage-page.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-track.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-venues.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui-routes-your-library-x.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui.css
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/xpui.js
+            modified:   Configs/.config/spicetify/Extracted/Themed/xpui/your-sound-capsule-modal.js
+            modified:   Configs/.config/spicetify/Themes/Sleek/color.ini
+            modified:   Configs/.config/spicetify/config-xpui.ini
+            modified:   Configs/.config/swappy/config
+            modified:   Configs/.config/swaync/theme.css
+            modified:   Configs/.config/waybar/theme.css
+            new file:   Configs/.local/share/bin/abo.db
+            new file:   Configs/.local/share/bin/d4e/__pycache__/d4e.cpython-312.pyc
+            new file:   Configs/.local/share/bin/d4e/d4e-daemon.py
+            new file:   Configs/.local/share/bin/d4e/d4e.py
+            new file:   Configs/.local/share/bin/d4e/data.json
+            new file:   Configs/.local/share/bin/d4e/static/css/style.css
+            new file:   Configs/.local/share/bin/d4e/static/js/app.js
+            
