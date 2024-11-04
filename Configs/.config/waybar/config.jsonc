@@ -15,89 +15,43 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/l_end","cpu","memory","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/l_end","hyprland/workspaces","custom/r_end","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","wlr/taskbar","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","custom/updates","privacy","tray","custom/r_end","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/r_end","custom/l_end","custom/power","custom/notification","custom/r_end","custom/padd"],
+	"modules-left": ["custom/padd","custom/l_end","custom/power","custom/r_end","custom/l_end","hyprland/workspaces","custom/r_end","custom/l_end","wlr/taskbar","custom/r_end","custom/padd"],
+	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","custom/updates","privacy","tray","custom/r_end","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/r_end","custom/l_end","custom/notification","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
 
-    "cpu": {
-        "interval": 2,
-        "format": "󰍛 {usage}%",
+    "custom/power": {
+        "format": "{}",
         "rotate": 0,
-        "format-alt": "{icon0}{icon1}{icon2}{icon3}",
-        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+        "exec": "echo ; echo  logout",
+        "on-click": "logoutlaunch.sh 2",
+        "on-click-right": "logoutlaunch.sh 1",
+        "interval" : 86400, // once every day
+        "tooltip": true
     },
 
-    "memory": {
-        "states": {
-            "c": 90, // critical
-            "h": 60, // high
-            "m": 30, // medium
-        },
-        "interval": 2,
-        "format": "󰾆 {used}GB",
+    "hyprland/workspaces": {
+        "disable-scroll": true,
         "rotate": 0,
-        "format-m": "󰾅 {used}GB",
-        "format-h": "󰓅 {used}GB",
-        "format-c": " {used}GB",
-        "format-alt": "󰾆 {percentage}%",
-        "max-length": 10,
-        "tooltip": true,
-        "tooltip-format": "󰾆 {percentage}%\n {used:0.1f}GB/{total:0.1f}GB"
+        "all-outputs": true,
+        "active-only": false,
+        "on-click": "activate",
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+        "persistent-workspaces": {
+        }
     },
 
-    "custom/cpuinfo": {
-        "exec": " cpuinfo.sh",
-        "return-type": "json",
-        "format": "{}",
-        "rotate": 0,
-        "interval": 5, // once every 5 seconds
-        "tooltip": true,
-        "max-length": 1000
-    },
-
-    "custom/gpuinfo": {
-        "exec": " gpuinfo.sh",
-        "return-type": "json",
-        "format": "{}",
-        "rotate": 0,
-        "interval": 5, // once every 5 seconds
-        "tooltip": true,
-        "max-length": 1000,
-        "on-click": "gpuinfo.sh --toggle",
-    },
-
-    "custom/gpuinfo#nvidia": {
-        "exec": " gpuinfo.sh --use nvidia ",
-        "return-type": "json",
-        "format": "{}",
-        "rotate": 0,
-        "interval": 5, // once every 5 seconds
-        "tooltip": true,
-        "max-length": 1000,
-    },
-
-    "custom/gpuinfo#amd": {
-        "exec": " gpuinfo.sh --use amd ",
-        "return-type": "json",
-        "format": "{}",
-        "rotate": 0,
-        "interval": 5, // once every 5 seconds
-        "tooltip": true,
-        "max-length": 1000,
-    },
-
-    "custom/gpuinfo#intel": {
-        "exec": " gpuinfo.sh --use intel ",
-        "return-type": "json",
-        "format": "{}",
-        "rotate": 0,
-        "interval": 5, // once every 5 seconds
-        "tooltip": true,
-        "max-length": 1000,
-    },
+	"wlr/taskbar": {
+		"format": "{icon}",
+                "spacing": 0,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+	},
 
     "idle_inhibitor": {
         "format": "{icon}",
@@ -132,27 +86,6 @@
             "on-scroll-down": "shift_down"
         }
     },
-
-    "hyprland/workspaces": {
-        "disable-scroll": true,
-        "rotate": 0,
-        "all-outputs": true,
-        "active-only": false,
-        "on-click": "activate",
-        "disable-scroll": false,
-        "on-scroll-up": "hyprctl dispatch workspace -1",
-        "on-scroll-down": "hyprctl dispatch workspace +1",
-        "persistent-workspaces": {
-        }
-    },
-
-	"wlr/taskbar": {
-		"format": "{icon}",
-                "spacing": 0,
-		"tooltip-format": "{title}",
-		"on-click": "activate",
-		"on-click-middle": "close",
-	},
 
     "custom/updates": {
         "exec": "systemupdate.sh",
@@ -245,16 +178,6 @@
     "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
     "scroll-step": 5
 },
-
-    "custom/power": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo  logout",
-        "on-click": "logoutlaunch.sh 2",
-        "on-click-right": "logoutlaunch.sh 1",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
 
 "custom/notification": {
     "tooltip": false,
