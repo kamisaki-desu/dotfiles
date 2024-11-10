@@ -7,6 +7,7 @@ exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
 exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# WAYBAR-ROUNDING=5
 
 general {
     gaps_in = 3

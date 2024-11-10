@@ -8,6 +8,7 @@ exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 exec = gsettings set org.gnome.desktop.interface font-name '$FONT'
 exec = Hyde cursor theme 'pixel-dream-cursor' size 20
 
+# WAYBAR-ROUNDING=5
 
 general {
     gaps_in = 3

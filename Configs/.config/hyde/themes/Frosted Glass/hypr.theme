@@ -10,6 +10,8 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-blue'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Frosted-Glass'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
 
+# WAYBAR-ROUNDING=5
+
 general {
     gaps_in = 4
     gaps_out = 10

@@ -3,6 +3,8 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Rain-Dark'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Rain-Dark'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# WAYBAR-ROUNDING=5
+
 general {
     gaps_in = 3
     gaps_out = 8

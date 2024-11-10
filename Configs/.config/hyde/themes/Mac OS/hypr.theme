@@ -9,6 +9,8 @@ exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
 exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# WAYBAR-ROUNDING=5
+
 # // You can use the commands below or use the HyDE CLI to set the cursor globally
 # exec = gsettings set org.gnome.desktop.interface cursor-theme '$CURSOR-THEME'
 # exec = gsettings set org.gnome.desktop.interface cursor-size 20
