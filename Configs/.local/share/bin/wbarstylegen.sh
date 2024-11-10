@@ -12,7 +12,6 @@ in_file="$waybar_dir/modules/style.css"
 out_file="$waybar_dir/style.css"
 src_file="${confDir}/hypr/themes/theme.conf"
 
-
 # calculate height from control file or monitor res
 
 b_height=`grep '^1|' $conf_ctl | cut -d '|' -f 2`
@@ -37,6 +36,8 @@ export w_margin=$(( b_height*10/100 ))   # workspace margin 10% of height
 export w_paddin=$(( b_height*10/100 ))   # workspace padding 10% of height
 export w_padact=$(( b_height*40/100 ))   # workspace active padding 40% of height
 export s_fontpx=$(( b_height*34/100 ))   # font size 34% of height
+
+export m_px=$(( b_height*60/100 )) # menu font size 60% of height
 
 if [ $b_height -lt 30 ] ; then
     export e_paddin=0
@@ -111,8 +112,19 @@ envsubst < $in_file > $out_file
 
 # override rounded couners
 
-hypr_border=`awk -F '=' '{if($1~" rounding ") print $2}' $src_file | sed 's/ //g'`
+hypr_border=`awk -F '=' '{if($1~" WAYBAR-ROUNDING ") print $2}' $src_file | sed 's/ //g'`
 if [ "$hypr_border" == "0" ] ; then
-    sed -i "/border-radius: /c\  " $out_file
+    sed -i "/border-radius: /c\  border-radius: 0px;" $out_file
 fi
+
+
+## OPTIONAL
+
+# envsubst ile out_file oluşturulduktan sonra custom modül için CSS ekleme
+echo "
+#custom-menu {
+    font-size: $m_px;
+    padding: 0;
+}
+" >> $out_file
 

@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-
 # read control file and initialize variables
 
 export scrDir="$(dirname "$(realpath "$0")")"
@@ -47,6 +46,29 @@ fi
 
 export set_sysname=`hostnamectl hostname`
 export w_position=`grep '^1|' $conf_ctl | cut -d '|' -f 3`
+export istransparent=`grep '^1|' $conf_ctl | cut -d '|' -f 7`
+
+if [ "$istransparent" == "transparent" ] || [ "$istransparent" == "trans" ]; then
+    
+    sed -i 's/\(@define-color bar-bg \)[^;]*;/\1rgba(0, 0, 0, 0);/' "$waybar_dir/theme.css"
+
+    sed -i 's/WAYBAR-ROUNDING=.*/WAYBAR-ROUNDING=0/' "$confDir/hypr/themes/theme.conf"
+
+elif [ "$istransparent" == "opaque" ] || [ "$istransparent" == "opa" ]; then
+    # main-bg rengini alıyoruz
+    main_bg=$(grep -oP '(?<=@define-color main-bg ).*?(?=;)' "$waybar_dir/theme.css")
+    
+    # Eğer main-bgn rengi bulunursa, bar-bg rengini ona eşitliyoruz
+    if [ -n "$main_bg" ]; then
+        sed -i "s/\(@define-color bar-bg \)[^;]*;/\1$main_bg;/" "$waybar_dir/theme.css"
+    else
+        notify-send "main-bg rengi bulunamadı."
+    fi
+    
+    sed -i 's/WAYBAR-ROUNDING=.*/WAYBAR-ROUNDING=0/' "$confDir/hypr/themes/theme.conf"
+fi
+
+
 
 case ${w_position} in
     left) export hv_pos="width" ; export r_deg=90 ;;
@@ -134,6 +156,3 @@ if [ "$reload_flag" == "1" ] ; then
     killall waybar
     waybar --config ${waybar_dir}/config.jsonc --style ${waybar_dir}/style.css > /dev/null 2>&1 &
 fi
-
-sleep 0.6
-$scrDir/wbarstylegen.sh
