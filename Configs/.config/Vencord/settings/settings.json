@@ -162,7 +162,7 @@
             "imageBigTooltip": "Editing a Javascript file",
             "imageSmall": "https://raw.githubusercontent.com/LeonardSSH/vscord/main/assets/icons/vscode.png",
             "imageSmallTooltip": "Code",
-            "buttonOneURL": "https://github.com/xeyossr/EasyLinux-VPN",
+            "buttonOneURL": "https://github.com/kamisaki/EasyLinux-VPN",
             "buttonOneText": "View Repository",
             "startTime": 0,
             "endTime": 0
@@ -795,6 +795,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1730640948546
+        "settingsSyncVersion": 1731105675969
     }
 }

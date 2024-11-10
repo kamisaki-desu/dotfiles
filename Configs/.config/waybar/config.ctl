@@ -22,5 +22,5 @@
 0|28|left|( custom/power custom/cliphist custom/notification ) ( idle_inhibitor clock custom/spotify )|( wlr/taskbar )|( privacy tray ) ( backlight network pulseaudio pulseaudio#microphone )
 0|28|top|( custom/power custom/cliphist custom/notification ) ( idle_inhibitor clock cpu memory custom/cpuinfo custom/gpuinfo )|( wlr/taskbar )|( custom/updates privacy tray ) ( backlight network pulseaudio pulseaudio#microphone )
 0|28|right|( custom/power custom/cliphist custom/wbar custom/theme custom/wallchange ) ( idle_inhibitor clock custom/spotify )|( wlr/taskbar )|( privacy tray ) ( backlight network pulseaudio pulseaudio#microphone )
-0|28|top|( cpu memory custom/cpuinfo custom/gpuinfo ) ( idle_inhibitor clock ) ( hyprland/workspaces )|( wlr/taskbar )|( custom/updates privacy tray ) ( backlight network pulseaudio pulseaudio#microphone ) ( custom/power custom/notification )
-1|28|top|( custom/power ) ( hyprland/workspaces ) ( wlr/taskbar )|( idle_inhibitor clock )|( custom/updates privacy tray ) ( backlight network pulseaudio pulseaudio#microphone ) ( custom/notification )
+1|28|top|( cpu memory custom/cpuinfo custom/gpuinfo ) ( idle_inhibitor clock ) ( hyprland/workspaces )|( wlr/taskbar )|( custom/updates privacy tray ) ( backlight network pulseaudio pulseaudio#microphone ) ( custom/power custom/notification )
+0|28|top|( custom/power ) ( hyprland/workspaces ) ( wlr/taskbar )|( idle_inhibitor clock )|( custom/updates privacy tray ) ( backlight network pulseaudio pulseaudio#microphone ) ( custom/notification )
