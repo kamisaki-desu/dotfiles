@@ -128,7 +128,6 @@ cat $modules_dir/footer.jsonc >> $conf_file
 
 $scrDir/wbarstylegen.sh
 
-
 # restart waybar
 
 if [ "$reload_flag" == "1" ] ; then
@@ -136,3 +135,5 @@ if [ "$reload_flag" == "1" ] ; then
     waybar --config ${waybar_dir}/config.jsonc --style ${waybar_dir}/style.css > /dev/null 2>&1 &
 fi
 
+sleep 0.6
+$scrDir/wbarstylegen.sh
