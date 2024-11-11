@@ -14,4 +14,3 @@ Reboot after that
 ![hyprdots](pr/2.png)
 ![hyprdots](pr/3.png)
 ![hyprdots](pr/4.png)
-![hyprdots](pr/5.png)

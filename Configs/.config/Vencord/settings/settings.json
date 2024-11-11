@@ -3,7 +3,10 @@
     "autoUpdateNotification": true,
     "useQuickCss": true,
     "themeLinks": [],
-    "enabledThemes": [],
+    "enabledThemes": [
+        "EmojiReplace.theme.css",
+        "zFloat.theme.css"
+    ],
     "enableReactDevtools": true,
     "frameless": false,
     "transparent": false,
@@ -415,7 +418,9 @@
             "enabled": false
         },
         "PermissionsViewer": {
-            "enabled": true
+            "enabled": true,
+            "permissionsSortOrder": 0,
+            "defaultPermissionsDropdownState": false
         },
         "petpet": {
             "enabled": false
@@ -795,6 +800,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1731105675969
+        "settingsSyncVersion": 1731258714164
     }
 }
