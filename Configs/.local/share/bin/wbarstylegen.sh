@@ -37,8 +37,6 @@ export w_paddin=$(( b_height*10/100 ))   # workspace padding 10% of height
 export w_padact=$(( b_height*40/100 ))   # workspace active padding 40% of height
 export s_fontpx=$(( b_height*34/100 ))   # font size 34% of height
 
-export m_px=$(( b_height*60/100 )) # menu font size 60% of height
-
 if [ $b_height -lt 30 ] ; then
     export e_paddin=0
 fi
@@ -123,8 +121,11 @@ fi
 # envsubst ile out_file oluşturulduktan sonra custom modül için CSS ekleme
 echo "
 #custom-menu {
-    font-size: $m_px;
-    padding: 0;
+    background: @wb-act-bg;
+    color: @wb-act-fg;
+    border-radius: 20px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-right: 10px;
 }
 " >> $out_file
-
