@@ -31,8 +31,10 @@ group {
 
 decoration {
     rounding = 1
-    drop_shadow = false
-
+    shadow {
+        enabled = false
+    }
+    
     blur {
         enabled = yes
         size = 5
