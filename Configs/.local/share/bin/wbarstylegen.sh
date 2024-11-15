@@ -12,6 +12,9 @@ in_file="$waybar_dir/modules/style.css"
 out_file="$waybar_dir/style.css"
 src_file="${confDir}/hypr/themes/theme.conf"
 
+workspace_radius=$(grep -oP '(?<=^workspace_radius=).*' "$scrDir/wbarexports.sh")
+tooltip_radius=$(grep -oP '(?<=tooltip_radius=).*' "$scrDir/wbarexports.sh")
+taskbar_radius=$(grep -oP '(?<=taskbar_radius=).*' "$scrDir/wbarexports.sh")
 # calculate height from control file or monitor res
 
 b_height=`grep '^1|' $conf_ctl | cut -d '|' -f 2`
@@ -23,18 +26,64 @@ fi
 
 
 # calculate values based on height
+if [ -n "$workspace_radius" ] && [ "$workspace_radius" != "None" ]; then
+    export w_radius=$workspace_radius
+    export w_paddin_left=$(( b_height*45/100 ))
+    export w_paddin_right=$(( b_height*45/100 ))
+    export w_padact_left=$(( b_height*45/100 ))
+    export w_padact_right=$(( b_height*45/100 ))
+    export w_bor_bottom=$(( b_height*10/100 ))
+    export w_margin=0
+    export e_margin=$(( b_height*15/100 ))
+    export e_paddin=$(( b_height*10/100 ))   
+
+else
+    export w_radius=$(( b_height*30/100 ))
+    export w_paddin_left=$(( b_height*10/100 ))
+    export w_paddin_right=$(( b_height*10/100 ))
+    export w_padact_left=$(( b_height*40/100 ))
+    export w_padact_right=$(( b_height*40/100 ))
+    export w_bor_bottom=0
+    export w_margin=$(( b_height*10/100 ))
+    export e_margin=$(( b_height*30/100 ))
+    export e_paddin=$(( b_height*10/100 ))   
+
+fi
+
+if [ -n "$taskbar_radius" ] && [ "$taskbar_radius" != "None" ]; then
+    export task_margin=0
+    export task_radius=0
+    export task_paddin_left=$(( b_height*15/100 ))
+    export task_paddin_right=$(( b_height*15/100 ))
+    export task_padact_left=$(( b_height*15/100 ))
+    export task_padact_right=$(( b_height*15/100 )) 
+else
+    export task_margin=$(( b_height*10/100 ))
+    export task_radius=$(( b_height*30/100 ))
+    export task_paddin_left=$(( b_height*10/100 ))
+    export task_paddin_right=$(( b_height*10/100 ))
+    export task_padact_left=$(( b_height*10/100 ))
+    export task_padact_right=$(( b_height*10/100 )) 
+fi
+
+if [ -n "$tooltip_radius" ] && [ "$tooltip_radius" != "None" ]; then
+    export t_radius=$tooltip_radius
+else
+    export t_radius=$(( b_height*25/100 ))
+fi
+
+
+
 
 export b_radius=$(( b_height*70/100 ))   # block rad 70% of height (type1)
 export c_radius=$(( b_height*25/100 ))   # block rad 25% of height {type2}
-export t_radius=$(( b_height*25/100 ))   # tooltip rad 25% of height
-export e_margin=$(( b_height*30/100 ))   # block margin 30% of height
-export e_paddin=$(( b_height*10/100 ))   # block padding 10% of height
+#export e_margin=$(( b_height*30/100 ))   # block margin 30% of height
+#export e_paddin=$(( b_height*10/100 ))   # block padding 10% of height
 export g_margin=$(( b_height*14/100 ))   # module margin 14% of height
 export g_paddin=$(( b_height*15/100 ))   # module padding 15% of height
-export w_radius=$(( b_height*30/100 ))   # workspace rad 30% of height
-export w_margin=$(( b_height*10/100 ))   # workspace margin 10% of height
-export w_paddin=$(( b_height*10/100 ))   # workspace padding 10% of height
-export w_padact=$(( b_height*40/100 ))   # workspace active padding 40% of height
+# export w_margin=$(( b_height*10/100 ))   # workspace margin 10% of height
+# export w_paddin=$(( b_height*10/100 ))   # workspace padding 10% of height
+# export w_padact=$(( b_height*40/100 ))   # workspace active padding 40% of height
 export s_fontpx=$(( b_height*34/100 ))   # font size 34% of height
 
 if [ $b_height -lt 30 ] ; then

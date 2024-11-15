@@ -265,7 +265,8 @@
             "zoomSpeed": 0.5
         },
         "ImplicitRelationships": {
-            "enabled": false
+            "enabled": true,
+            "sortByAffinity": true
         },
         "InvisibleChat": {
             "enabled": false
@@ -604,7 +605,9 @@
             "enabled": false
         },
         "USRBG": {
-            "enabled": false
+            "enabled": true,
+            "voiceBackground": true,
+            "nitroFirst": false
         },
         "ValidReply": {
             "enabled": true
@@ -761,7 +764,7 @@
             "prioritizeServerProfile": false
         },
         "CopyFileContents": {
-            "enabled": false
+            "enabled": true
         },
         "NoRPC": {
             "enabled": false
@@ -800,6 +803,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1731258714164
+        "settingsSyncVersion": 1731628485030
     }
 }

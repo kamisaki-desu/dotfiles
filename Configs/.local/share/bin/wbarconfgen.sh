@@ -51,8 +51,10 @@ export istransparent=`grep '^1|' $conf_ctl | cut -d '|' -f 7`
 if [ "$istransparent" == "transparent" ] || [ "$istransparent" == "trans" ]; then
     
     sed -i 's/\(@define-color bar-bg \)[^;]*;/\1rgba(0, 0, 0, 0);/' "$waybar_dir/theme.css"
-
     sed -i 's/WAYBAR-ROUNDING=.*/WAYBAR-ROUNDING=0/' "$confDir/hypr/themes/theme.conf"
+    sed -i 's/^workspace_radius=.*/workspace_radius=None/' "$scrDir/wbarexports.sh"
+    sed -i 's/^tooltip_radius=.*/tooltip_radius=None/' "$scrDir/wbarexports.sh"
+    sed -i 's/^taskbar_radius=.*/taskbar_radius=None/' "$scrDir/wbarexports.sh"
 
 elif [ "$istransparent" == "opaque" ] || [ "$istransparent" == "opa" ]; then
     # main-bg rengini alıyoruz
@@ -66,7 +68,12 @@ elif [ "$istransparent" == "opaque" ] || [ "$istransparent" == "opa" ]; then
     fi
     
     sed -i 's/WAYBAR-ROUNDING=.*/WAYBAR-ROUNDING=0/' "$confDir/hypr/themes/theme.conf"
+
+    sed -i 's/^workspace_radius=.*/workspace_radius=0/' "$scrDir/wbarexports.sh"
+    sed -i 's/^tooltip_radius=.*/tooltip_radius=0/' "$scrDir/wbarexports.sh"
+    sed -i 's/^taskbar_radius=.*/taskbar_radius=0/' "$scrDir/wbarexports.sh"
 fi
+
 
 
 

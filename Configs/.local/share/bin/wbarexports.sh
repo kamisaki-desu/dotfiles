@@ -1,0 +1,3 @@
+workspace_radius=0
+tooltip_radius=0
+taskbar_radius=0
