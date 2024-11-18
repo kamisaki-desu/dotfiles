@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+########### This script was edited by https://github.com/xeyossr ##########
+#################### https://github.com/xeyossr/dotfiles ###################
+######### If there are errors in the script please open the issue. #########
+
 # read control file and initialize variables
 
 export scrDir="$(dirname "$(realpath "$0")")"
@@ -57,14 +61,10 @@ if [ "$istransparent" == "transparent" ] || [ "$istransparent" == "trans" ]; the
     sed -i 's/^taskbar_radius=.*/taskbar_radius=None/' "$scrDir/wbarexports.sh"
 
 elif [ "$istransparent" == "opaque" ] || [ "$istransparent" == "opa" ]; then
-    # main-bg rengini alıyoruz
     main_bg=$(grep -oP '(?<=@define-color main-bg ).*?(?=;)' "$waybar_dir/theme.css")
     
-    # Eğer main-bgn rengi bulunursa, bar-bg rengini ona eşitliyoruz
     if [ -n "$main_bg" ]; then
         sed -i "s/\(@define-color bar-bg \)[^;]*;/\1$main_bg;/" "$waybar_dir/theme.css"
-    else
-        notify-send "main-bg rengi bulunamadı."
     fi
     
     sed -i 's/WAYBAR-ROUNDING=.*/WAYBAR-ROUNDING=0/' "$confDir/hypr/themes/theme.conf"
@@ -73,8 +73,6 @@ elif [ "$istransparent" == "opaque" ] || [ "$istransparent" == "opa" ]; then
     sed -i 's/^tooltip_radius=.*/tooltip_radius=0/' "$scrDir/wbarexports.sh"
     sed -i 's/^taskbar_radius=.*/taskbar_radius=0/' "$scrDir/wbarexports.sh"
 fi
-
-
 
 
 case ${w_position} in

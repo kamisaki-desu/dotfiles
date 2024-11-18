@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+########### This script was edited by https://github.com/xeyossr ##########
+#################### https://github.com/xeyossr/dotfiles ###################
+######### If there are errors in the script please open the issue. #########
 
 # detect hypr theme and initialize variables
 
@@ -34,7 +37,8 @@ if [ -n "$workspace_radius" ] && [ "$workspace_radius" != "None" ]; then
     export w_padact_right=$(( b_height*45/100 ))
     export w_bor_bottom=$(( b_height*10/100 ))
     export w_margin=0
-    export e_margin=$(( b_height*15/100 ))
+    export g_margin=0
+    export e_margin=0
     export e_paddin=$(( b_height*10/100 ))   
 
 else
@@ -46,7 +50,8 @@ else
     export w_bor_bottom=0
     export w_margin=$(( b_height*10/100 ))
     export e_margin=$(( b_height*30/100 ))
-    export e_paddin=$(( b_height*10/100 ))   
+    export e_paddin=$(( b_height*10/100 ))
+    export g_margin=$(( b_height*14/100 ))   
 
 fi
 
@@ -73,13 +78,11 @@ else
 fi
 
 
-
-
 export b_radius=$(( b_height*70/100 ))   # block rad 70% of height (type1)
 export c_radius=$(( b_height*25/100 ))   # block rad 25% of height {type2}
-#export e_margin=$(( b_height*30/100 ))   # block margin 30% of height
-#export e_paddin=$(( b_height*10/100 ))   # block padding 10% of height
-export g_margin=$(( b_height*14/100 ))   # module margin 14% of height
+# export e_margin=$(( b_height*30/100 ))   # block margin 30% of height
+# export e_paddin=$(( b_height*10/100 ))   # block padding 10% of height
+# export g_margin=$(( b_height*14/100 ))   # module margin 14% of height
 export g_paddin=$(( b_height*15/100 ))   # module padding 15% of height
 # export w_margin=$(( b_height*10/100 ))   # workspace margin 10% of height
 # export w_paddin=$(( b_height*10/100 ))   # workspace padding 10% of height

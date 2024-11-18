@@ -19,7 +19,6 @@
         {
             "type": "os",
             "key": "   OS",
-	    "format": "Arch Linux",
             "keyColor": "red"
         },
         {

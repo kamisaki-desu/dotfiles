@@ -15,15 +15,34 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/sl_end","hyprland/workspaces","wlr/taskbar","custom/sr_end","custom/padd"],
+	"modules-left": ["custom/padd","hyprland/workspaces","custom/sr_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/sl_end","idle_inhibitor","clock","custom/sr_end","custom/padd"],
 	"modules-right": ["custom/padd","custom/sl_end","custom/updates","privacy","tray","custom/sr_end","custom/sl_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/sr_end","custom/sl_end","custom/power","custom/notification","custom/sr_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
 
+
     "hyprland/workspaces": {
         "disable-scroll": true,
+        "active-only": false,
+        "all-outputs": true,
+        "format-alt": "{icon} <sub>{name}</sub>",
+        "format": "{name}: {icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
+            "default": "",
+            "persistent": "",
+        	"special": ""
+        },
         "rotate": 0,
         "all-outputs": true,
         "active-only": false,
@@ -35,14 +54,20 @@
         }
     },
 
-	"wlr/taskbar": {
-		"format": "{icon}",
-                "spacing": 0,
-		"tooltip-format": "{title}",
-		"on-click": "activate",
-		"on-click-middle": "close",
-	},
-
+/*
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "rotate": 0,
+        "all-outputs": true,
+        "active-only": false,
+        "on-click": "activate",
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+        "persistent-workspaces": {
+        }
+},
+*/
     "idle_inhibitor": {
         "format": "{icon}",
         "rotate": 0,
@@ -240,7 +265,7 @@
     },
 
     "custom/padd": {
-        "format": "  ",
+        "format": "",
         "interval" : "once",
         "tooltip": false
     }

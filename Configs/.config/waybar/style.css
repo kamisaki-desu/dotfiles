@@ -151,7 +151,7 @@ tooltip {
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
-    margin: 3px 0px 3px 0px;
+    margin: 0px 0px 0px 0px;
     padding-left: 4px;
     padding-right: 4px;
 }
@@ -175,25 +175,25 @@ tooltip {
 
 #custom-sr_end {
     border-radius: 0px;
-    margin-right: 4px;
+    margin-right: 0px;
     padding-right: 0px;
 }
 
 #custom-sl_end {
     border-radius: 0px;
-    margin-left: 4px;
+    margin-left: 0px;
     padding-left: 0px;
 }
 
 #custom-rr_end {
     border-radius: 0px 7px 7px 0px;
-    margin-right: 4px;
+    margin-right: 0px;
     padding-right: 0px;
 }
 
 #custom-rl_end {
     border-radius: 7px 0px 0px 7px;
-    margin-left: 4px;
+    margin-left: 0px;
     padding-left: 0px;
 }
 
