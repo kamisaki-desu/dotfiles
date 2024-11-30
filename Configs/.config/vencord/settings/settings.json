@@ -156,17 +156,17 @@
         "CustomRPC": {
             "enabled": false,
             "type": 0,
-            "timestampMode": 2,
+            "timestampMode": 0,
             "appID": "782685898163617802",
-            "appName": "Code",
-            "details": "In FLOSS Militants 0",
-            "state": "Working on index.js:6935:74",
-            "imageBig": "https://raw.githubusercontent.com/LeonardSSH/vscord/main/assets/icons/js.png",
-            "imageBigTooltip": "Editing a Javascript file",
+            "appName": "Learning C++",
+            "details": "",
+            "state": "",
+            "imageBig": "https://raw.githubusercontent.com/LeonardSSH/vscord/main/assets/icons/cpp.png",
+            "imageBigTooltip": "Learning CPP",
             "imageSmall": "https://raw.githubusercontent.com/LeonardSSH/vscord/main/assets/icons/vscode.png",
             "imageSmallTooltip": "Code",
-            "buttonOneURL": "https://github.com/kamisaki/EasyLinux-VPN",
-            "buttonOneText": "View Repository",
+            "buttonOneURL": "",
+            "buttonOneText": "",
             "startTime": 0,
             "endTime": 0
         },
@@ -235,7 +235,7 @@
             "enabled": true
         },
         "GameActivityToggle": {
-            "enabled": false
+            "enabled": true
         },
         "GifPaste": {
             "enabled": false
@@ -803,6 +803,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1731780828366
+        "settingsSyncVersion": 1732790553281
     }
 }

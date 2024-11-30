@@ -57,7 +57,7 @@ tooltip {
     padding-${x3}: ${w_padact_left}px;
     padding-${x4}: ${w_padact_right}px;
     margin-${x4}: ${w_margin}px;
-    border-bottom: ${w_bor_bottom}px solid @wb-hvr-bg;
+  /*border-bottom: ${w_bor_bottom}px solid @wb-hvr-bg;*/
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }

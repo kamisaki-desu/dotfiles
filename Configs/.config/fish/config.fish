@@ -1,5 +1,3 @@
-fastfetch
-
 set -g fish_greeting ""
 
 source ~/.aliases

@@ -6,65 +6,65 @@ Description: A dynamic theme with a focus on readability and contrast.
  */
 
 .theme-dark {
-    --background-primary: #1C0725; /* bg for main workspace window  */
-    --background-primary-alt: #5C3A6B; /* code blocks bg for comands under tick marks */
-    --background-secondary: #1C0725; /* bg for panels */
-    --background-secondary-alt: #452952;  /*when activewindow top border*/
+    --background-primary: #16173B; /* bg for main workspace window  */
+    --background-primary-alt: #3A3B6B; /* code blocks bg for comands under tick marks */
+    --background-secondary: #16173B; /* bg for panels */
+    --background-secondary-alt: #292A52;  /*when activewindow top border*/
     --background-accent: #00fff0;  /*?*/
-    --background-modifier-border: #4A1442; /* border lines color for form fields */
-    --background-modifier-form-field: #1C0725; /* bg for form fields eg search bar */ 
+    --background-modifier-border: #54203D; /* border lines color for form fields */
+    --background-modifier-form-field: #16173B; /* bg for form fields eg search bar */ 
     --background-modifier-form-field-highlighted: #00fff0; /*?*/
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
     --background-modifier-success: #00fff0;
-    --background-modifier-error: #4A1442; / * use for Clear button */
+    --background-modifier-error: #54203D; / * use for Clear button */
     --background-modifier-error-rgb: <wallbash_pry3_rgba>; /*?*/
     --background-modifier-error-hover: #00fff0; /*?*/  
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
     --text-accent: #FFFFFF;
     --text-accent-hover: #FFFFFF;
-    --text-normal: #ECE8BB; /* current active space*/
-    --text-muted: #F0EAAA; /* Dimmed not focused left list panel*/ 
-    --text-faint: #A39E65; /*tab titles*/
-    --text-error: #9154A0;
-    --text-error-hover: #ECE8BB;
-    --text-highlight-bg: #452952; /* ===hightlight==*/
-    --text-selection: #452952; /* selection highlight*/
-    --text-on-accent: #070707; /* accent text */
-     --interactive-normal: #452952; /* Drop down menu bg*/
-    --interactive-hover: #F5CCFF;
+    --text-normal: #DF8D9D; /* current active space*/
+    --text-muted: #F0AAB8; /* Dimmed not focused left list panel*/ 
+    --text-faint: #A36571; /*tab titles*/
+    --text-error: #557FB8;
+    --text-error-hover: #DF8D9D;
+    --text-highlight-bg: #292A52; /* ===hightlight==*/
+    --text-selection: #292A52; /* selection highlight*/
+    --text-on-accent: #0B0C0C; /* accent text */
+     --interactive-normal: #292A52; /* Drop down menu bg*/
+    --interactive-hover: #CCE2FF;
     --interactive-accent-rgb: <wallbash_pry3_rgba>;
-    --interactive-accent: #9154A0; 
+    --interactive-accent: #557FB8; 
 }
 
 .theme-light {
-    --background-primary: #1C0725; /* bg for main workspace window  */
-    --background-primary-alt: #5C3A6B; /* code blocks bg for comands under tick marks */
-    --background-secondary: #1C0725; /* bg for panels */
-    --background-secondary-alt: #452952;  /*when activewindow top border*/
+    --background-primary: #16173B; /* bg for main workspace window  */
+    --background-primary-alt: #3A3B6B; /* code blocks bg for comands under tick marks */
+    --background-secondary: #16173B; /* bg for panels */
+    --background-secondary-alt: #292A52;  /*when activewindow top border*/
     --background-accent: #00fff0;  /*?*/
-    --background-modifier-border: #4A1442; /* border lines color for form fields */
-    --background-modifier-form-field: #1C0725; /* bg for form fields eg search bar */ 
+    --background-modifier-border: #54203D; /* border lines color for form fields */
+    --background-modifier-form-field: #16173B; /* bg for form fields eg search bar */ 
     --background-modifier-form-field-highlighted: #00fff0; /*?*/
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
     --background-modifier-success: #00fff0;
-    --background-modifier-error: #4A1442; / * use for Clear button */
+    --background-modifier-error: #54203D; / * use for Clear button */
     --background-modifier-error-rgb: <wallbash_pry3_rgba>; /*?*/
     --background-modifier-error-hover: #00fff0; /*?*/  
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
     --text-accent: #FFFFFF;
     --text-accent-hover: #FFFFFF;
-    --text-normal: #ECE8BB; /* current active space*/
-    --text-muted: #F0EAAA; /* Dimmed not focused left list panel*/ 
-    --text-faint: #A39E65; /*tab titles*/
-    --text-error: #9154A0;
-    --text-error-hover: #ECE8BB;
-    --text-highlight-bg: #452952; /* ===hightlight==*/
-    --text-selection: #452952; /* selection highlight*/
-    --text-on-accent: #070707; /* accent text */
-     --interactive-normal: #452952; /* Drop down menu bg*/
-    --interactive-hover: #F5CCFF;
+    --text-normal: #DF8D9D; /* current active space*/
+    --text-muted: #F0AAB8; /* Dimmed not focused left list panel*/ 
+    --text-faint: #A36571; /*tab titles*/
+    --text-error: #557FB8;
+    --text-error-hover: #DF8D9D;
+    --text-highlight-bg: #292A52; /* ===hightlight==*/
+    --text-selection: #292A52; /* selection highlight*/
+    --text-on-accent: #0B0C0C; /* accent text */
+     --interactive-normal: #292A52; /* Drop down menu bg*/
+    --interactive-hover: #CCE2FF;
     --interactive-accent-rgb: <wallbash_pry3_rgba>;
-    --interactive-accent: #9154A0; 
+    --interactive-accent: #557FB8; 
 }
   body {
 	-webkit-font-smoothing: auto;
@@ -448,46 +448,46 @@ Description: A dynamic theme with a focus on readability and contrast.
 	padding-right: 0.8em !important;
 	text-align: right !important;
   }
-    --text-error: #FAFAFA;
-    --text-error-hover: #070707;
+    --text-error: #E4E3E1;
+    --text-error-hover: #0B0C0C;
     --text-highlight-bg: #<wallbash_txt1_rgba>;
     --text-selection: #<wallbash_txt2_rgba>;
-    --text-on-accent: #FAFAFA;
-    --interactive-normal: #1C0725;
-    --interactive-hover: #4A1442;
+    --text-on-accent: #E4E3E1;
+    --interactive-normal: #16173B;
+    --interactive-hover: #54203D;
     --interactive-accent-rgb: <wallbash_pry3_rgba>;
-    --interactive-accent: #9154A0; */
+    --interactive-accent: #557FB8; */
 }
 
 .theme-light {
-  --background-primary: #4A1442;
-  --background-primary-alt: #9154A0;
-  --background-secondary: #ECE8BB;
-  --background-secondary-alt: #1C0725;
-  --background-accent: #4A1442;
-  --background-modifier-border: #9154A0;
-  --background-modifier-form-field: #ECE8BB;
-  --background-modifier-form-field-highlighted: #1C0725;
+  --background-primary: #54203D;
+  --background-primary-alt: #557FB8;
+  --background-secondary: #DF8D9D;
+  --background-secondary-alt: #16173B;
+  --background-accent: #54203D;
+  --background-modifier-border: #557FB8;
+  --background-modifier-form-field: #DF8D9D;
+  --background-modifier-form-field-highlighted: #16173B;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
-  --background-modifier-success: #4A1442;
-  --background-modifier-error: #9154A0;
+  --background-modifier-success: #54203D;
+  --background-modifier-error: #557FB8;
   --background-modifier-error-rgb: <wallbash_pry3_rgba>;
-  --background-modifier-error-hover: #ECE8BB;
+  --background-modifier-error-hover: #DF8D9D;
   --background-modifier-cover: rgba(0, 0, 0, 0.8);
   --text-accent: #FFFFFF;
-  --text-accent-hover: #FAFAFA;
-  --text-normal: #070707;
+  --text-accent-hover: #E4E3E1;
+  --text-normal: #0B0C0C;
   --text-muted: #FFFFFF;
   --text-faint: #FFFFFF;
-  --text-error: #FAFAFA;
-  --text-error-hover: #070707;
+  --text-error: #E4E3E1;
+  --text-error-hover: #0B0C0C;
   --text-highlight-bg: #<wallbash_txt1_rgba>;
   --text-selection: #<wallbash_txt2_rgba>;
-  --text-on-accent: #FAFAFA;
-  --interactive-normal: #1C0725;
-  --interactive-hover: #4A1442;
+  --text-on-accent: #E4E3E1;
+  --interactive-normal: #16173B;
+  --interactive-hover: #54203D;
   --interactive-accent-rgb: <wallbash_pry3_rgba>;
-  --interactive-accent: #9154A0;
+  --interactive-accent: #557FB8;
 }
   
   body {
