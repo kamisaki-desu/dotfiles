@@ -4,13 +4,14 @@
   border: none;
   font-family: "Maple Mono NF";
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
+  min-height: 10px;
   border-radius: 0px;
 }
 
 window#waybar {
   background-color: @bar-bg;
-  border-bottom: 3px solid @border-color;
+  border-bottom: 2px solid @border-color;
   animation: dimBrighten 3s ease-in-out infinite;
 }
 
@@ -29,8 +30,8 @@ window#waybar {
 }
 
 #workspaces {
-  background-color: @workspace-bg;
-  color: @pulseaudio-color;
+  background-color: @main-bg;
+  color: @main-fg;
   border-radius: 0;
 }
 
@@ -43,20 +44,21 @@ window#waybar {
 }
 
 #workspaces>button {
+  color: @main-fg;
   padding: 0 15px;
   font-weight: bold;
 }
 
 #workspaces>button.active {
-  color: @button-hover-color;
-  background: @button-hover-bg;
-  border-bottom: 3px solid @border-color;
+  color: @main-fg;
+  background: @main-bg;
+  border-bottom: 2px solid @border-color;
 }
 
 #workspaces>button:hover {
-  background: @button-hover-bg;
-  color: @button-hover-color;
-  border-bottom: 3px solid @border-color;
+  background: @main-bg;
+  color: @main-fg;
+  border-bottom: 2px solid @border-color;
 }
 
 
@@ -67,7 +69,7 @@ window#waybar {
 }
 
 #battery.charging {
-  color: @battery-color;
+  color: @main-fg;
 }
 
 /*#taskbar {*/
@@ -83,7 +85,7 @@ window#waybar {
 /*}*/
 
 #custom-separator {
-  color: @work-hav;
+  color: @main-fg;
   font-weight: bold;
 }
 
@@ -97,11 +99,11 @@ window#waybar {
 #network,
 #clock,
 #tray,
+#custom-updates,
 #custom-playerctl,
 #custom-notifications {
   padding-left: 4px;
-  padding-left: 4px;
-  margin: 0px 0px 0px 0px;
-  color: @pulseaudio-color;
+  padding-right: 13px;
+  color: @main-fg;
 }
 

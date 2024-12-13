@@ -17,10 +17,7 @@ if [ "$1" == "up" ] ; then
     trap 'pkill -RTMIN+20 waybar' EXIT
     command="
     fastfetch
-    $0 upgrade
-    ${aurhlpr} -Syu
-    $fpk_exup
-    read -n 1 -p 'Press any key to continue...'
+    update.sh
     "
     kitty --title systemupdate sh -c "${command}"
 fi

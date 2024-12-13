@@ -103,11 +103,11 @@
     },
 
     "custom/updates": {
-        "exec": "systemupdate.sh",
+        "exec": "updatecounter.sh",
         "return-type": "json",
         "format": "{}",
         "rotate": 0,
-        "on-click": "hyprctl dispatch exec 'systemupdate.sh up'",
+        "on-click": "hyprctl dispatch exec 'updatecounter.sh up'",
         "interval": 300, // once every 5 minutes
         "tooltip": true,
         "signal": 20,

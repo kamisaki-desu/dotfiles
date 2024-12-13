@@ -6,9 +6,11 @@ ascii-image-converter
 cbonsai
 checkupdates-with-aur
 citch
+cliwrap-git
 currencyconverter
 discli
 discordo-git
+edid-decode-git
 espeak
 fluent-reader
 hyde-cli-git
@@ -33,10 +35,12 @@ python-decouple
 python-devgoldyutils
 python-fabric-git
 python-inquirer
+python-js2py
 python-mov-cli-test
 python-pyamdgpuinfo
 python-pytubefix
 revolt-desktop
+rmlint
 shazam-cli-git
 snapper-rollback
 swaylock-effects-git

@@ -38,10 +38,12 @@ checkupdates-with-aur
 chess-tui
 citch
 cliphist
+cliwrap-git
 cmatrix
 cmus
 code
 code-marketplace
+cool-retro-term
 cowsay
 cpufetch
 cryptsetup
@@ -67,15 +69,15 @@ e2fsprogs
 edk2-ovmf
 efibootmgr
 efitools
+endeavouros-branding
 endeavouros-keyring
 endeavouros-mirrorlist
-endeavouros-theming
 eos-apps-info
+eos-breeze-sddm
 eos-dracut
 eos-hooks
 eos-log-tool
 eos-packagelist
-eos-plasma-sddm-config
 eos-quickstart
 eos-rankmirrors
 eos-settings-plasma
@@ -181,6 +183,7 @@ lsd
 lshw
 lsscsi
 lvm2
+lynis
 maliit-keyboard
 man-db
 man-pages
@@ -244,7 +247,6 @@ papirus-icon-theme
 pavucontrol
 pcmanfm
 perl
-pfetch
 php-apache
 php-sqlite
 phpmyadmin
@@ -388,6 +390,7 @@ warp
 waybar
 webkit2gtk
 welcome
+weston
 wf-recorder
 wget
 which

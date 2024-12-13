@@ -1,28 +1,36 @@
 {
     "layer": "top",
     "position": "top",
-    "spacing": 0,
-    "output": [
-      "eDP-1"
-    ],
+    "mod": "dock",
+    "height": 30,
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "reload_style_on_change": true,
+
     "modules-left": [
-      "hyprland/workspaces",
-      "wlr/taskbar"
+      "hyprland/workspaces"
+      //"wlr/taskbar"
     ],
+
     "modules-center": [
       "clock",
       "custom/playerctl"
     ],
+
     "modules-right": [
+	  "custom/updates",
       "tray",
       "backlight",
       "pulseaudio",
       "memory",
       "battery"
     ],
+
     "custom/separator": {
       "format": ""
     },
+
     "wlr/taskbar": {
       "format": "{icon}",
       "on-click": "activate",
@@ -30,6 +38,7 @@
       "icon-size": 13,
       "tooltip-format": "{title}"
     },
+    
     "custom/playerctl": {
       "format": "  ::  <span>{}</span>",
       "return-type": "json",
@@ -43,6 +52,19 @@
         "Paused": "<span foreground='#47423E'>󰝛</span>"
       }
     },
+
+    
+    "custom/updates": {
+        "exec": "updatecounter.sh",
+        "return-type": "json",
+        "format": "{}",
+        "rotate": 0,
+        "on-click": "hyprctl dispatch exec 'updatecounter.sh up'",
+        "interval": 180, // once every 3 minutes
+        "tooltip": true,
+        "signal": 20,
+    },
+        
     "hyprland/workspaces": {
       "active-only": false,
       "all-outputs": true,
@@ -63,11 +85,25 @@
         "special": ""
       }
     },
-    "memory": {
-      "interval": 5,
-      "format": "󰍛 {}%",
-      "max-length": 10
-    },
+
+	"memory": {
+	    "states": {
+	        "c": 90, // critical
+	        "h": 60, // high
+	        "m": 30, // medium
+	    },
+	    "interval": 2,
+	    "format": "󰾆 {used}GB",
+	    "rotate": "${r_deg}",
+	    "format-m": "󰾅 {used}GB",
+	    "format-h": "󰓅 {used}GB",
+	    "format-c": " {used}GB",
+	    "format-alt": "󰾆 {percentage}%",
+	    "max-length": 10,
+	    "tooltip": true,
+	    "tooltip-format": "󰾆 {percentage}%\n {used:0.1f}GB/{total:0.1f}GB"
+	},
+    
     "tray": {
       "spacing": 15
     },

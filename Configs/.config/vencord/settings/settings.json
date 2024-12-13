@@ -235,7 +235,8 @@
             "enabled": true
         },
         "GameActivityToggle": {
-            "enabled": true
+            "enabled": true,
+            "oldIcon": false
         },
         "GifPaste": {
             "enabled": false
@@ -803,6 +804,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1732790553281
+        "settingsSyncVersion": 1733850480934
     }
 }
