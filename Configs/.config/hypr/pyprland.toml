@@ -9,4 +9,4 @@ plugins = [
 animation = "fromTop"
 command = "kitty --class kitty-dropterm"
 class = "kitty-dropterm"
-size = "75% 65%"
+size = "85% 45%"

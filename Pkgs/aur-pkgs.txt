@@ -1,5 +1,9 @@
 2048-cli-git
 activate-linux-git
+anifetch
+animefetch
+anitr-cli
+aniwatch-tr-git
 appimagetool-bin
 apple_cursor
 ascii-image-converter
@@ -13,6 +17,7 @@ discordo-git
 edid-decode-git
 espeak
 fluent-reader
+ftxui
 hyde-cli-git
 hyprpanel
 hyprshade
@@ -20,6 +25,7 @@ libreddit
 manga-cli-git
 mov-cli
 muezzin-bin
+nitch
 nudoku
 nuitka
 obsidian-cli
@@ -35,7 +41,6 @@ python-decouple
 python-devgoldyutils
 python-fabric-git
 python-inquirer
-python-js2py
 python-mov-cli-test
 python-pyamdgpuinfo
 python-pytubefix
@@ -45,6 +50,7 @@ shazam-cli-git
 snapper-rollback
 swaylock-effects-git
 telegram-desktop-bin
+terminalwrap
 tofi
 toipe
 tty-clock

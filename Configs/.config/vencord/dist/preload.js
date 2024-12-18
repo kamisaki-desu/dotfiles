@@ -1,4 +1,4 @@
-// Vencord 40a8cf1
+// Vencord 48a9aef
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
