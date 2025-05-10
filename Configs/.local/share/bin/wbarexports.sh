@@ -2,6 +2,6 @@
 #################### https://github.com/xeyossr/dotfiles ###################
 ######### If there are errors in the script please open the issue. #########
 
-workspace_radius=0
-tooltip_radius=0
-taskbar_radius=0
+workspace_radius=None
+tooltip_radius=None
+taskbar_radius=None

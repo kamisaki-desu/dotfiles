@@ -154,7 +154,6 @@ cat $modules_dir/footer.jsonc >> $conf_file
 # generate style
 
 $scrDir/wbarstylegen.sh
-
 # restart waybar
 
 if [ "$reload_flag" == "1" ] ; then

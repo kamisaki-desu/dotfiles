@@ -4,9 +4,8 @@
 
 # Define commands as variables
 PACMAN_UPDATE_CMD="sudo pacman -Syu"
-PACMAN_REPO_UPDATE_CMD="sudo pacman -Syy"
 UNUSED_PACKAGES_CMD="pacman -Qqdt"
-YAY_UPDATE_CMD="yay -Syu --noconfirm"
+YAY_UPDATE_CMD="yay -Syu"
 AUR_UPDATE_CMD="yay -Sua"
 SNAPPER_CREATE_CMD="sudo snapper create -d"
 FLATPAK_UPDATE_CMD="flatpak update -y"
@@ -16,11 +15,6 @@ REBOOT_CMD="sudo reboot"
 echo "📸 Creating a pre-update snapshot with Snapper..."
 echo "Command: $SNAPPER_CREATE_CMD \"backup: pre-system update\""
 $SNAPPER_CREATE_CMD "backup: pre-system update" || echo "❌ Error creating pre-update snapshot. Skipping..."
-
-# Update package repositories
-echo "🔄 Updating package repositories..."
-echo "Command: $PACMAN_REPO_UPDATE_CMD"
-$PACMAN_REPO_UPDATE_CMD || echo "❌ Error updating repositories. Continuing..."
 
 # Update the system packages
 echo "⬆️ Updating the system packages..."

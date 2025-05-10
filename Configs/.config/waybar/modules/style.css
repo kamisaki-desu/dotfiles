@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0px;
-    font-family: "JetBrainsMono Nerd Font";
+    font-family: "${font_name}","JetBrainsMono Nerd Font";
     font-weight: bold;
     font-size: ${s_fontpx}px;
     min-height: 10px;
@@ -11,21 +11,6 @@
 
 window#waybar {
     background: @bar-bg;
-    animation: dimBrighten 3s ease-in-out infinite;
-}
-
-@keyframes dimBrighten {
-  0% {
-    border-color: @border-color;
-  }
-
-  100% {
-    border-color: @border-color;
-  }
-
-  50% {
-    border-color: transparent;
-  }
 }
 
 tooltip {
@@ -43,8 +28,8 @@ tooltip {
     margin-${x1}: ${w_margin}px;
     margin-${x2}: ${w_margin}px;
     margin-${x3}: 0px;
-    padding-${x3}: ${w_paddin_left}px;
-    padding-${x4}: ${w_paddin_right}px;
+    padding-${x3}: ${w_paddin}px;
+    padding-${x4}: ${w_paddin}px;
     margin-${x4}: 0px;
     color: @main-fg;
     animation: ws_normal 20s ease-in-out 1;
@@ -54,18 +39,16 @@ tooltip {
     background: @wb-act-bg;
     color: @wb-act-fg;
     margin-${x3}: ${w_margin}px;
-    padding-${x3}: ${w_padact_left}px;
-    padding-${x4}: ${w_padact_right}px;
+    padding-${x3}: ${w_padact}px;
+    padding-${x4}: ${w_padact}px;
     margin-${x4}: ${w_margin}px;
-  /*border-bottom: ${w_bor_bottom}px solid @wb-hvr-bg;*/
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button:hover {
-    background: @wb-act-bg;
-    color: @wb-act-fg;
-    border-bottom: ${w_bor_bottom}px solid @wb-hvr-bg;
+    background: @wb-hvr-bg;
+    color: @wb-hvr-fg;
     animation: ws_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -74,35 +57,34 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: ${task_radius}px;
-    margin-${x1}: ${task_margin}px;
-    margin-${x2}: ${task_margin}px;
+    border-radius: ${w_radius}px;
+    margin-${x1}: ${w_margin}px;
+    margin-${x2}: ${w_margin}px;
     margin-${x3}: 0px;
-    padding-${x3}: ${task_paddin_left}px;
-    padding-${x4}: ${task_paddin_right}px;
+    padding-${x3}: ${w_paddin}px;
+    padding-${x4}: ${w_paddin}px;
     margin-${x4}: 0px;
     color: @wb-color;
     animation: tb_normal 20s ease-in-out 1;
 }
 
 #taskbar button.active {
-	background: @main-bg;
-    margin-${x3}: ${task_margin}px;
-    padding-${x3}: ${task_padact_left}px;
-    padding-${x4}: ${task_padact_right}px;
-    margin-${x4}: ${task_margin}px;
+    background: @wb-act-bg;
+    color: @wb-act-color;
+    margin-${x3}: ${w_margin}px;
+    padding-${x3}: ${w_padact}px;
+    padding-${x4}: ${w_padact}px;
+    margin-${x4}: ${w_margin}px;
     animation: tb_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
-/*
 #taskbar button:hover {
     background: @wb-hvr-bg;
     color: @wb-hvr-color;
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
-*/
 
 #tray menu * {
     min-height: 16px

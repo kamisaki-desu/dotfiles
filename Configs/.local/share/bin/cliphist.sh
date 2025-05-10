@@ -38,7 +38,9 @@ else
     y_off="$(( ${curPos[1]} - ${offRes[1]} ))"
 fi
 
-r_override="window{location:${x_pos} ${y_pos};anchor:${x_pos} ${y_pos};x-offset:${x_off}px;y-offset:${y_off}px;border:${hypr_width}px;border-radius:${wind_border}px;} wallbox{border-radius:${elem_border}px;} element{border-radius:${elem_border}px;}"
+#r_override="window{location:${x_pos} ${y_pos};anchor:${x_pos} ${y_pos};x-offset:${x_off}px;y-offset:${y_off}px;border:${hypr_width}px;border-radius:${wind_border}px;} wallbox{border-radius:${elem_border}px;} element{border-radius:${elem_border}px;}"
+# Mouse yerine ekran ortasına sabitle
+r_override="window{location: center; anchor: center; x-offset: 0px; y-offset: 0px; border:${hypr_width}px; border-radius:${wind_border}px;} wallbox{border-radius:${elem_border}px;} element{border-radius:${elem_border}px;}"
 
 # Show main menu if no arguments are passed
 if [ $# -eq 0 ]; then

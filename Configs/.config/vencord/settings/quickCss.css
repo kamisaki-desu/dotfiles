@@ -1,8 +1,0 @@
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);
-
-:root {
-  --font-primary:  "CaskaydiaCove Nerd Font";
-  --font-display:  var(--font-primary);
-  --font-headline: var(--font-primary);
-  --font-code:     "CaskaydiaCove Nerd Font";
-}

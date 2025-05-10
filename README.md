@@ -1,5 +1,4 @@
 # My Dotfiles
-These [dotfiles](https://github.com/xeyossr/dotfiles) are based on [Hyprdots/HyDE](https://github.com/prasanthrangan/hyprdots)
 Installing HyDE after minimal archinstall installs conflicting network managers which can cause disconnects. Run this to fix that
 ```bash
 sudo systemctl disable --now iwd.service
